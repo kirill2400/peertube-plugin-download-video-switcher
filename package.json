@@ -1,11 +1,9 @@
 {
-  "name": "peertube-plugin-download-video-switcher",
+  "name": "peertube-plugin-setdefaultvideodownload",
   "description": "Download video switcher plugin for PeerTube",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "kirill2400",
-  "bugs": {
-    "url": "https://github.com/kirill2400/peertube-plugin-download-video-switcher/issues"
-  },
+  "bugs": "https://github.com/kirill2400/peertube-plugin-download-video-switcher/issues",
   "clientScripts": [
     {
       "script": "dist/common-client-plugin.js",
