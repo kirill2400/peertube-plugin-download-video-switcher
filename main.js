@@ -7,7 +7,13 @@ async function register ({
   videoLicenceManager,
   videoLanguageManager
 }) {
-
+  const { translate } = peertubeHelpers
+  registerSetting({
+    name: 'defaultDownloadVideoToggle',
+    label: await translate('DefaultValueDownloadVideo'),
+    type: 'input-checkbox',
+    private: false
+  })
 }
 
 async function unregister () {

@@ -1,3 +1,3 @@
-# PeerTube plugin Quickstart
+# Download video switcher plugin for PeerTube
 
-See https://docs.joinpeertube.org/#/contribute-plugins?id=write-a-plugintheme
+This plugin allows you to set a default value for the ability to download videos
