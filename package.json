@@ -3,7 +3,9 @@
   "description": "Download video switcher plugin for PeerTube",
   "version": "0.0.1",
   "author": "kirill2400",
-  "bugs": "https://github.com/kirill2400/peertube-plugin-download-video-switcher/issues",
+  "bugs": {
+    "url": "https://github.com/kirill2400/peertube-plugin-download-video-switcher/issues"
+  },
   "clientScripts": [
     {
       "script": "dist/common-client-plugin.js",
@@ -36,5 +38,12 @@
   "translations": {
     "en-EN": "./languages/en.json",
     "ru-RU": "./languages/ru.json"
-  }
+  },
+  "main": "main.js",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirill2400/peertube-plugin-download-video-switcher.git"
+  },
+  "license": "ISC"
 }
