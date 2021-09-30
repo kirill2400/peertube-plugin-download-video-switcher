@@ -14,9 +14,7 @@
       ]
     }
   ],
-  "css": [
-    "assets/style.css"
-  ],
+  "css": [],
   "devDependencies": {
     "webpack": "^5.50.0",
     "webpack-cli": "^4.7.2"
