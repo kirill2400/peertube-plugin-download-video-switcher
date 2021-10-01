@@ -1,3 +1,4 @@
 {
-  "Hello world": "Set default value for \"allow download video\" option in video settings"
+  "Force forbid download": "Force forbid download",
+  "DenyCaption": "Download forbidden"
 }

@@ -1,7 +1,7 @@
 {
-  "name": "peertube-plugin-setdefaultvideodownload",
-  "description": "Download video switcher plugin for PeerTube",
-  "version": "0.0.2",
+  "name": "peertube-plugin-denydownload",
+  "description": "Deny download video plugin for PeerTube",
+  "version": "0.0.1",
   "author": "kirill2400",
   "bugs": "https://github.com/kirill2400/peertube-plugin-download-video-switcher/issues",
   "clientScripts": [
@@ -23,7 +23,10 @@
   "homepage": "https://github.com/kirill2400/peertube-plugin-download-video-switcher",
   "keywords": [
     "peertube",
-    "plugin"
+    "plugin",
+    "deny",
+    "download",
+    "video"
   ],
   "library": "./main.js",
   "scripts": {

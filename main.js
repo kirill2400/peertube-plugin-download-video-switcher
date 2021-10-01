@@ -1,16 +1,9 @@
 async function register ({
-  registerHook,
-  registerSetting,
-  settingsManager,
-  storageManager,
-  videoCategoryManager,
-  videoLicenceManager,
-  videoLanguageManager
+  registerSetting
 }) {
-  const { translate } = peertubeHelpers
   registerSetting({
-    name: 'defaultDownloadVideoToggle',
-    label: await translate('DefaultValueDownloadVideo'),
+    name: 'deny-download-video',
+    label: 'Force forbid download',
     type: 'input-checkbox',
     private: false
   })
